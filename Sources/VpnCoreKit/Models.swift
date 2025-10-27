@@ -28,7 +28,7 @@ public extension String {
 // MARK: - Server Info
 
 /// VPN Server information from server list
-public struct ServerInfo: Codable, Equatable, Identifiable {
+public struct ServerInfo: Codable, Equatable, Identifiable, Hashable {
     /// Unique server identifier
     public let id: String
 
