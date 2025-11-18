@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/master.swiftdeps"
+  },
+  "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/DiagnosticTest.swift": {
+    "dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.d",
+    "object": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.swift.o",
+    "swiftmodule": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.swiftdeps",
+    "diagnostics": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.dia"
+  },
+  "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSApiTest.swift": {
+    "dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.d",
+    "object": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.swift.o",
+    "swiftmodule": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.swiftdeps",
+    "diagnostics": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.dia"
+  },
+  "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSConfigTest.swift": {
+    "dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.d",
+    "object": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.swift.o",
+    "swiftmodule": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.swiftdeps",
+    "diagnostics": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.dia"
+  },
+  "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSOnlyTests.swift": {
+    "dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.d",
+    "object": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.swift.o",
+    "swiftmodule": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.swiftdeps",
+    "diagnostics": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.dia"
+  },
+  "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/VpnCoreKitTests.swift": {
+    "dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.d",
+    "object": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.swift.o",
+    "swiftmodule": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.swiftdeps",
+    "diagnostics": "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.dia"
+  }
+}

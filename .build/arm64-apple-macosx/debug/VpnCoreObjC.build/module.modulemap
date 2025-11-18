@@ -1,0 +1,4 @@
+module VpnCoreObjC {
+    umbrella header "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC/VpnCoreObjC.h"
+    export *
+}

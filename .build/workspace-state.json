@@ -1,0 +1,31 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "vpncorekit",
+          "kind" : "root",
+          "location" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit",
+          "name" : "VpnCoreKit"
+        },
+        "path" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "VpnCore"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

@@ -1,0 +1,906 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.xctest/Contents/MacOS/VpnCoreKitPackageTests",
+      "packagePath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit",
+      "productName" : "VpnCoreKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCore.framework" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64/VpnCore.framework"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCore.framework"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VpnCoreKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/sources",
+      "importPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/ApiResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/VpnAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/VpnCoreWrapper.m.o"
+        },
+        {
+          "kind" : "directory",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCore.framework"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VpnCoreKit",
+      "moduleOutputPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKit.swiftmodule",
+      "objects" : [
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/ApiResult.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/Logger.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/Models.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/VpnAPI.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC",
+        "-I",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+        "-module-cache-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/include/VpnCoreKit-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "vpncorekit"
+      ],
+      "outputFileMapPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/ApiResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/VpnAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/ApiResult.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Logger.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Models.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/VpnAPI.swift"
+      ],
+      "tempsPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VpnCoreKitPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/sources",
+      "importPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKitTests.swiftmodule"
+        },
+        {
+          "kind" : "directory",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCore.framework"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VpnCoreKitPackageTests",
+      "moduleOutputPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC",
+        "-I",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+        "-module-cache-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/include/VpnCoreKitPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "vpncorekit"
+      ],
+      "outputFileMapPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VpnCoreKitTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/sources",
+      "importPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/DiagnosticTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSApiTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSConfigTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSOnlyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/VpnCoreKitTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/VpnCoreWrapper.m.o"
+        },
+        {
+          "kind" : "directory",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCore.framework"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VpnCoreKitTests",
+      "moduleOutputPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKitTests.swiftmodule",
+      "objects" : [
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.swift.o",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC",
+        "-I",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+        "-module-cache-path",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "vpncorekit"
+      ],
+      "outputFileMapPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules/VpnCoreKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/DiagnosticTest.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSApiTest.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSConfigTest.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSOnlyTests.swift",
+        "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/VpnCoreKitTests.swift"
+      ],
+      "tempsPath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VpnCoreKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VpnCoreKit",
+      "-package-name",
+      "vpncorekit",
+      "-c",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/ApiResult.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Logger.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Models.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/VpnAPI.swift",
+      "-I",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC",
+      "-I",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+      "-module-cache-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/include/VpnCoreKit-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "vpncorekit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VpnCoreKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VpnCoreKitPackageTests",
+      "-package-name",
+      "vpncorekit",
+      "-c",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC",
+      "-I",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+      "-module-cache-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/include/VpnCoreKitPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "vpncorekit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VpnCoreKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VpnCoreKitTests",
+      "-package-name",
+      "vpncorekit",
+      "-c",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/DiagnosticTest.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSApiTest.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSConfigTest.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSOnlyTests.swift",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/VpnCoreKitTests.swift",
+      "-I",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreObjC",
+      "-I",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Frameworks/VpnCore.xcframework/macos-arm64",
+      "-module-cache-path",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "vpncorekit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "VpnCoreKit" : [
+      "VpnCoreObjC",
+      "VpnCore"
+    ],
+    "VpnCoreKitPackageTests" : [
+      "VpnCoreKitTests",
+      "VpnCoreKit",
+      "VpnCoreObjC",
+      "VpnCore"
+    ],
+    "VpnCoreKitTests" : [
+      "VpnCoreKit",
+      "VpnCoreObjC",
+      "VpnCore"
+    ],
+    "VpnCoreObjC" : [
+      "VpnCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/ApiResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Sources/VpnCoreKit/VpnAPI.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/sources"
+    },
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/sources"
+    },
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/ApiResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKit.build/VpnAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/DiagnosticTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSApiTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSConfigTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/MacOSOnlyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/VpnCoreKitTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreObjC.build/VpnCoreWrapper.m.o"
+        }
+      ],
+      "outputFilePath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/DiagnosticTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSApiTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSConfigTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/MacOSOnlyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/Tests/VpnCoreKitTests/VpnCoreKitTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/VpnCoreKitTests.build/sources"
+    },
+    "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/thanhhaikhong/Desktop/AppExample/VpnCoreKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
